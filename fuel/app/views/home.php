@@ -5,5 +5,6 @@
 <body>
 <h1>Twitter Login Sample on FuelPHP</h1>
 <a href="login/twitter">Twitterでログイン</a>
+TEST
 </body>
 </html>
