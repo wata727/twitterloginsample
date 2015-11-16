@@ -61,3 +61,8 @@
 	</IfModule>
 
 </IfModule>
+
+SetEnvIf X-Forwarded-For 210.251.250.30 allowip
+order deny,allow
+deny  from all
+allow from env=allowip
